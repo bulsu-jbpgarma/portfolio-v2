@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ben. - Portfolio</title>
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Space+Grotesk:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Link to external CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- HEADER & NAVIGATION -->
+    <header class="header">
+      <nav class="nav-container">
+        <div class="brand">
+          <a href="#about">Ben<span class="accent-dot">.</span></a>
+        </div>
+        <div class="nav-links">
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+
+          <!-- Theme Toggle Button -->
+          <button
+            id="theme-toggle"
+            class="theme-toggle"
+            aria-label="Toggle color theme"
+          >
+            <span class="sun-icon" aria-hidden="true">
+              <img src="assets/lightmode.png" alt="" />
+            </span>
+            <span class="moon-icon" aria-hidden="true">
+              <img src="assets/darkmode.png" alt="" />
+            </span>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main>
+      <!-- HERO / ABOUT ME SECTION -->
+      <section id="about" class="hero-section">
+        <div class="hero-content">
+          <p class="eyebrow">BSIT STUDENT · ASPIRING FRONT-END DEVELOPER</p>
+          <h1 class="headline">
+            Hello, <span class="accent-orange">I’m Ben.</span><br />
+            I build things that solve real problems.
+          </h1>
+          <p class="bio">
+            I'm a third-year BSIT student exploring front-end development and
+            UI/UX design. I enjoy turning ideas into practical, user-focused
+            digital experiences.
+          </p>
+          <div class="hero-actions">
+            <a href="#contact" class="btn-primary">Contact me</a>
+            <a href="#projects" class="btn-secondary">View projects →</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img src="assets/benny.png" alt="John Garma Portrait" />
+        </div>
+      </section>
+
+      <!-- PROJECTS SECTION -->
+      <section id="projects" class="projects-section">
+        <div class="section-header">
+          <h2>Projects</h2>
+          <p>A select few web applications I have designed and built.</p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1: MediSync -->
+          <article class="project-card">
+            <div class="card-content">
+              <h3>MediSync</h3>
+              <p>
+                A web-based hospital human resources management system
+                engineered for operational efficiency, staff scheduling, and
+                credential tracking.
+              </p>
+              <div class="tags">
+                <span class="tag">React</span>
+                <span class="tag">Firebase</span>
+                <span class="tag">Tailwind CSS</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2: Midori Café UI -->
+          <article class="project-card">
+            <div class="card-content">
+              <h3>Midori Café UI</h3>
+              <p>
+                A mobile web user interface mock-up featuring dynamic order
+                placement, minimalist typography, and fluid menu interaction
+                transitions.
+              </p>
+              <div class="tags">
+                <span class="tag">HTML5</span>
+                <span class="tag">CSS</span>
+                <span class="tag">Figma</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3: MangaQuilla -->
+          <article class="project-card">
+            <div class="card-content">
+              <h3>MangaQuilla</h3>
+              <p>
+                A modern web platform for browsing manga series, featuring
+                custom grid layouts, visual hero banners, and structured
+                navigation engineered for seamless story discovery.
+              </p>
+              <div class="tags">
+                <span class="tag">HTML5</span>
+                <span class="tag">CSS Grid</span>
+                <span class="tag">Figma</span>
+                <span class="tag">JavaScript</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER / CONTACT SECTION -->
+    <footer id="contact" class="footer">
+      <div class="footer-container">
+        <div class="footer-top">
+          <div class="footer-left">
+            <h2>Let's talk</h2>
+            <p>
+              Open to internships, freelance inquiries, and software development
+              collaborations.
+            </p>
+          </div>
+          <div class="footer-right">
+            <a href="mailto:johngarma28@gmail.com" class="footer-link"
+              >johngarma28@gmail.com</a
+            >
+            <a href="https://github.com/bulsu-jbpgarma" class="footer-link"
+              >GitHub →</a
+            >
+            <a
+              href="https://www.linkedin.com/in/john-benedict-p-garma-255273443"
+              class="footer-link"
+              >LinkedIn →</a
+            >
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>© 2026 John Benedict P. Garma. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Link to external JavaScript -->
+    <script src="script.js"></script>
+  </body>
+</html>
