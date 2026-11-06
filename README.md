@@ -1,7 +1,7 @@
 
 Hi, I'm Benedict Garma.
 
-I am a Web & Mobile Developer focused on building responsive applications and designing intuitive user experiences. I work across both frontend design and backend development.
+I am a Front-End Developer focused on building responsive web applications and designing intuitive user experiences. I work across frontend design and UI/UX.
 
 * Focus: Web and Mobile Application Development
 * Currently exploring: UI/UX Web Design and modern frontend workflows

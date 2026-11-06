@@ -4,16 +4,25 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ben. - Portfolio</title>
-    <!-- Google Fonts -->
+    <meta
+      name="description"
+      content="Portfolio of Ben (John Benedict Garma), a BSIT student and aspiring front-end developer. Showcasing web projects, skills, and contact information."
+    />
+    <meta property="og:title" content="Ben. - Portfolio" />
+    <meta
+      property="og:description"
+      content="Portfolio of Ben, a BSIT student and aspiring front-end developer showcasing web projects and skills."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="assets/benny.png" />
+    <meta name="twitter:card" content="summary_large_image" />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Space+Grotesk:wght@700&display=swap"
       rel="stylesheet"
     />
-    <!-- Link to external CSS -->
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <!-- HEADER & NAVIGATION -->
     <header class="header">
       <nav class="nav-container">
         <div class="brand">
@@ -24,7 +33,6 @@
           <a href="#projects">Projects</a>
           <a href="#contact">Contact</a>
 
-          <!-- Theme Toggle Button -->
           <button
             id="theme-toggle"
             class="theme-toggle"
@@ -41,9 +49,7 @@
       </nav>
     </header>
 
-    <!-- MAIN CONTENT -->
     <main>
-      <!-- HERO / ABOUT ME SECTION -->
       <section id="about" class="hero-section">
         <div class="hero-content">
           <p class="eyebrow">BSIT STUDENT · ASPIRING FRONT-END DEVELOPER</p>
@@ -62,11 +68,10 @@
           </div>
         </div>
         <div class="hero-image">
-          <img src="assets/benny.png" alt="John Garma Portrait" />
+          <img src="assets/benny.png" alt="Ben portrait" />
         </div>
       </section>
 
-      <!-- PROJECTS SECTION -->
       <section id="projects" class="projects-section">
         <div class="section-header">
           <h2>Projects</h2>
@@ -74,7 +79,6 @@
         </div>
 
         <div class="projects-grid">
-          <!-- Project 1: MediSync -->
           <article class="project-card">
             <div class="card-content">
               <h3>MediSync</h3>
@@ -91,7 +95,6 @@
             </div>
           </article>
 
-          <!-- Project 2: Midori Café UI -->
           <article class="project-card">
             <div class="card-content">
               <h3>Midori Café UI</h3>
@@ -108,7 +111,6 @@
             </div>
           </article>
 
-          <!-- Project 3: MangaQuilla -->
           <article class="project-card">
             <div class="card-content">
               <h3>MangaQuilla</h3>
@@ -129,7 +131,6 @@
       </section>
     </main>
 
-    <!-- FOOTER / CONTACT SECTION -->
     <footer id="contact" class="footer">
       <div class="footer-container">
         <div class="footer-top">
@@ -160,7 +161,6 @@
       </div>
     </footer>
 
-    <!-- Link to external JavaScript -->
     <script src="script.js"></script>
   </body>
 </html>
