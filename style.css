@@ -497,6 +497,14 @@ body.dark-mode .moon-icon {
 
   .hero-actions {
     justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+
+  .btn-primary,
+  .btn-secondary {
+    font-size: 14px;
+    padding: 12px 20px;
   }
 
   .nav-links {
@@ -509,6 +517,19 @@ body.dark-mode .moon-icon {
 
   .footer-top {
     flex-direction: column;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-actions {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .btn-primary,
+  .btn-secondary {
+    width: 100%;
+    text-align: center;
   }
 }
 
