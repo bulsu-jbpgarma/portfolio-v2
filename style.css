@@ -192,6 +192,7 @@ body.dark-mode .moon-icon {
 .hero-image img {
   border-radius: 24px;
   max-width: 100%;
+  border: 1px solid var(--border-color);
 }
 
 .hero-section > * {
