@@ -491,8 +491,8 @@ body.dark-mode .moon-icon {
 
 @media (max-width: 480px) {
   .nav-container {
-    align-items: flex-start;
-    flex-direction: column;
+    flex-direction: row;
+    align-items: center;
     gap: 12px;
   }
 
