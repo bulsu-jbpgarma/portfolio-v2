@@ -445,6 +445,48 @@ body.dark-mode .moon-icon {
   transform: translateY(-8px) rotate(-45deg);
 }
 
+/* --- SKILLS SECTION --- */
+.skills-section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 80px 20px;
+  border-top: 1px solid var(--border-color);
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 24px;
+}
+
+.skill-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  background-color: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 3px;
+  padding: 24px 12px;
+  transition: transform 0.2s ease;
+}
+
+.skill-item:hover {
+  transform: translateY(-5px);
+}
+
+.skill-item img {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+}
+
+.skill-item span {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--text-secondary);
+}
+
 /* --- MEDIA QUERIES (Mobile Responsiveness) --- */
 @media (max-width: 768px) {
   .hero-section {
