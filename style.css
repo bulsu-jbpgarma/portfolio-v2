@@ -168,21 +168,6 @@ body.dark-mode .moon-icon {
   border-radius: 12px;
 }
 
-/* Floating accent shapes */
-.hero-section::after {
-  content: "";
-  position: absolute;
-  top: 10%;
-  right: 5%;
-  width: 180px;
-  height: 180px;
-  background: var(--accent-orange);
-  filter: blur(90px);
-  opacity: 0.18;
-  border-radius: 50%;
-  pointer-events: none;
-}
-
 /* Eyebrow pill */
 .eyebrow {
   display: inline-flex;
