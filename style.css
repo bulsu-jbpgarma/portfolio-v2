@@ -613,6 +613,11 @@ button:focus-visible {
     text-align: center;
   }
 
+  .hero-image img {
+    max-width: 280px;
+    margin: 0 auto;
+  }
+
   .hero-actions {
     justify-content: center;
     flex-wrap: wrap;
