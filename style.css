@@ -648,9 +648,17 @@ button:focus-visible {
 }
 
 @media (max-width: 768px) {
+  .nav-container {
+    position: relative;
+  }
+
   .nav-toggle {
     display: flex;
-    margin-left: auto;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    margin-left: 0;
   }
 
   .nav-links {
