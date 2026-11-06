@@ -355,6 +355,62 @@ body.dark-mode .moon-icon {
   font-size: 13px;
 }
 
+/* --- ABOUT SECTION --- */
+.about-section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 80px 20px;
+  border-top: 1px solid var(--border-color);
+}
+
+.about-text {
+  max-width: 800px;
+  color: var(--text-secondary);
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+/* --- SERVICES SECTION --- */
+.services-section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 80px 20px;
+  border-top: 1px solid var(--border-color);
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr));
+  gap: 24px;
+}
+
+.service-card {
+  background-color: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 3px;
+  padding: 32px;
+  transition: transform 0.2s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+}
+
+.service-card h3 {
+  font-family: var(--font-space);
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+
+.service-card p {
+  color: var(--text-secondary);
+  font-size: 14px;
+}
+
+.section-container {
+  /* wrapper for consistency */
+}
+
 /* --- MEDIA QUERIES (Mobile Responsiveness) --- */
 @media (max-width: 768px) {
   .hero-section {
