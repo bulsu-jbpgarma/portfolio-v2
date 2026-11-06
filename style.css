@@ -650,6 +650,7 @@ button:focus-visible {
 @media (max-width: 768px) {
   .nav-toggle {
     display: flex;
+    margin-left: auto;
   }
 
   .nav-links {
